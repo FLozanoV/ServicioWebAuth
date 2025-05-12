@@ -1,0 +1,79 @@
+/* Estilo del título principal */
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0A043C; /* Azul oscuro */
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    text-shadow: 2px 2px 5px #FFD700; /* Efecto dorado */
+}
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ADD8E6; /* Azul claro */
+    color: #0A043C; /* Azul oscuro */
+    text-align: center;
+}
+
+
+/* Contenedor principal */
+.container {
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1779FF; /* Azul claro */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #FFD700; /* Dorado */
+}
+
+/* Títulos */
+h2 {
+    color: #FFD700; /* Dorado */
+}
+
+/* Inputs */
+/* Inputs */
+input {
+    width: 90%; /* Reduce el ancho para que no llegue al borde */
+    padding: 10px;
+    margin: 10px auto; /* Margen automático para centrar */
+    border: none;
+    border-radius: 5px;
+    background-color: #8B5A2B; /* Café */
+    color: white; /* Texto en blanco */
+    font-weight: bold;
+    display: block;
+}
+
+/* Botones */
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFD700; /* Dorado */
+    color: #0A043C; /* Azul oscuro */
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0A043C; /* Azul oscuro */
+    color: #FFD700; /* Dorado */
+}
+
+/* Estilos para las etiquetas "Usuario" y "Contraseña" */
+.label-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFD700; /* Dorado para destacar */
+    display: block;
+    margin-bottom: 5px;
+}
+
+

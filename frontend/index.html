@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Autenticación | G. L. LEATHER DESIGNS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Título de la página -->
+    <h1 class="title">G. L. LEATHER DESIGNS</h1>
+
+    <div class="container">
+        <h2>Registro</h2>
+<form id="registerForm">
+    <label for="regUsername" class="label-text">Usuario</label>
+    <input type="text" id="regUsername" placeholder="Escribe tu usuario" required>
+    
+    <label for="regPassword" class="label-text">Contraseña</label>
+    <input type="password" id="regPassword" placeholder="Escribe tu contraseña" required>
+    
+    <button type="submit">Registrarse</button>
+</form>
+
+<h2>Inicio de Sesión</h2>
+<form id="loginForm">
+    <label for="loginUsername" class="label-text">Usuario</label>
+    <input type="text" id="loginUsername" placeholder="Escribe tu usuario" required>
+    
+    <label for="loginPassword" class="label-text">Contraseña</label>
+    <input type="password" id="loginPassword" placeholder="Escribe tu contraseña" required>
+    
+    <button type="submit">Iniciar Sesión</button>
+</form>
+
+
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
